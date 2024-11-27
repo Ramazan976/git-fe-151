@@ -1,0 +1,220 @@
+ol
+{
+    list-style-position: inside;
+    width: 400px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+li
+{
+    padding: 15px;
+}
+
+.black
+{
+    background-color: black;
+    color: white;
+    transition-property: color;
+}
+
+.black:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.silver
+{
+    background-color: silver;
+    color: white;
+    transition-property: color;
+}
+
+.silver:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.gray
+{
+    background-color: gray;
+    color: white;
+    transition-property: color;
+}
+
+.gray:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.PETERRIVER
+{
+    background-color: #3498db;
+    color: white;
+    transition-property: color;
+}
+
+.PETERRIVER:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.maroon
+{
+    background-color: #800000;
+    color: white;
+    transition-property: color;
+}
+
+.maroon:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.red
+{
+    background-color: red;
+    color: white;
+    transition-property: color;
+}
+
+.red:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.purple
+{
+    background-color: purple;
+    color: white;
+    transition-property: color;
+}
+
+.purple:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.white
+{
+    background-color: fuchsia;
+    color: black;
+    transition-property: color;
+}
+
+.white:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.green
+{
+    background-color: green;
+    color: white;
+    transition-property: color;
+}
+
+.green:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.lime
+{
+    background-color: lime;
+    color: black;
+    transition-property: color;
+}
+
+.lime:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.olive
+{
+    background-color: olive;
+    color: white;
+    transition-property: color;
+}
+
+.olive:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.yellow
+{
+    background-color: yellow;
+    color: black;
+    transition-property: color;
+}
+
+.yellow:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.navy
+{
+    background-color: navy;
+    color: white;
+    transition-property: color;
+}
+
+.navy:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.blue
+{
+    background-color: blue;
+    color: white;
+    transition-property: color;
+}
+
+.blue:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.teal
+{
+    background-color: teal;
+    color: white;
+    transition-property: color;
+}
+
+.teal:hover
+{
+    color: black;
+    background-color: white;
+}
+
+.aqua
+{
+    background-color: aqua;
+    color: black;
+    transition-property: color;
+}
+
+.aqua:hover
+{
+    color: black;
+    background-color: white;
+}
