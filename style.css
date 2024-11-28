@@ -1,220 +1,48 @@
-ol
-{
-    list-style-position: inside;
-    width: 400px;
+#wrapper{
+    max-width: 1120px;
+    width: 80%;
     margin: auto;
-    font-family: sans-serif;
 }
-
-li
-{
-    padding: 15px;
+body{
+    margin: auto;
 }
-
-.black
-{
-    background-color: black;
-    color: white;
-    transition-property: color;
+header{
+    background-color:#6DD60A;
+    width: 100%;
+    height: 50px;
 }
-
-.black:hover
-{
-    color: black;
-    background-color: white;
+.fa-brands{
+    font-weight: 400;
 }
-
-.silver
-{
-    background-color: silver;
-    color: white;
-    transition-property: color;
+h1 {
+  font-family: "League Gothic", sans-serif;
+  margin: auto;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 60px;
 }
-
-.silver:hover
-{
-    color: black;
-    background-color: white;
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
+h3{
+    font-weight: 800;
+    font-family:Arial, Helvetica, sans-serif;
 
-.gray
-{
-    background-color: gray;
-    color: white;
-    transition-property: color;
 }
+p{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-.gray:hover
-{
-    color: black;
-    background-color: white;
 }
-
-.PETERRIVER
-{
-    background-color: #3498db;
-    color: white;
-    transition-property: color;
+h4{
+    font-size: 21px;
+    font-family:Arial, Helvetica, sans-serif ;
 }
-
-.PETERRIVER:hover
-{
-    color: black;
-    background-color: white;
+a{
+    color: rgb(64, 212, 44);
 }
-
-.maroon
-{
-    background-color: #800000;
-    color: white;
-    transition-property: color;
-}
-
-.maroon:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.red
-{
-    background-color: red;
-    color: white;
-    transition-property: color;
-}
-
-.red:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.purple
-{
-    background-color: purple;
-    color: white;
-    transition-property: color;
-}
-
-.purple:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.white
-{
-    background-color: fuchsia;
-    color: black;
-    transition-property: color;
-}
-
-.white:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.green
-{
-    background-color: green;
-    color: white;
-    transition-property: color;
-}
-
-.green:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.lime
-{
-    background-color: lime;
-    color: black;
-    transition-property: color;
-}
-
-.lime:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.olive
-{
-    background-color: olive;
-    color: white;
-    transition-property: color;
-}
-
-.olive:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.yellow
-{
-    background-color: yellow;
-    color: black;
-    transition-property: color;
-}
-
-.yellow:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.navy
-{
-    background-color: navy;
-    color: white;
-    transition-property: color;
-}
-
-.navy:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.blue
-{
-    background-color: blue;
-    color: white;
-    transition-property: color;
-}
-
-.blue:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.teal
-{
-    background-color: teal;
-    color: white;
-    transition-property: color;
-}
-
-.teal:hover
-{
-    color: black;
-    background-color: white;
-}
-
-.aqua
-{
-    background-color: aqua;
-    color: black;
-    transition-property: color;
-}
-
-.aqua:hover
-{
-    color: black;
-    background-color: white;
+footer{
+    background-color: #1CA3B4;
+    width: 100%;
+    height: 100px;
+   
 }
