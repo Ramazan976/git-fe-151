@@ -1,0 +1,69 @@
+.wrapper{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    min-width: 320px;
+    background-color:blueviolet;
+    border-radius: 12px;
+    width: 320px;
+    height: 200px;
+    color:white;
+    margin: 10px;
+    box-sizing: border-box;
+    padding-left: 15px;
+}
+p{
+    margin: 0;
+}
+#number{
+    margin-top: -5px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+#name{
+    padding-top: 15px;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#valid{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+    font-size: 12px;
+}
+#day{
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+}
+#visa{
+    display: flex;
+    justify-self: end;
+    width: 100;
+    height: 40;
+    margin-right: 10px;
+    margin-top: -40px;
+}
+#cip{
+    width: 70px;
+    padding-top: 35px;
+    margin-left: -5px;
+
+}
+.card:nth-child(2){
+    background-color: #009432;
+
+}
+.card:nth-child(3){
+    background-color: #0652DD;
+}
+.card:nth-child(4){
+    background-color: black;
+}
