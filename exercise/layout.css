@@ -5,13 +5,13 @@
 }
 .row{
     display: flex;
-    flex-wrap: wrap;
 }
 .d-flex{
     display: flex;
 }
 .w-full{
     width: 100%;
+
 }
 .text{
     text-align: center;
