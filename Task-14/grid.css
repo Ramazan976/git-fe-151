@@ -1,0 +1,61 @@
+.container{
+    max-width: 1120px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:repeat(4, 180px);
+    gap: 8px;
+}
+.item-1{
+    background-color:chocolate ;
+    grid-row: 3/2;
+}
+.item-2{
+    background-color:blueviolet ;
+    grid-row: 3/3;
+}
+.item-3{
+    background-color:chartreuse;
+    grid-row: 3/1;
+    grid-column: 2/4;
+}
+.item-4{
+    background-color:darkgreen;
+}
+.item-5{
+    background-color:blue;
+    grid-row: 3/3;
+}
+.item-6{
+    background-color:cadetblue ;
+    grid-row: 3/3;
+}
+.item-7{
+    background-color:brown;
+    grid-column: 1/4;
+}
+.item-8{
+    background-color: darkblue;
+    grid-row: 1/5;   
+}
+.item-9{
+    background-color:crimson ;
+    grid-row: 1/1;
+}
+.item-10{
+    background-color: darkorange;
+    grid-row: 2/2;
+}
+.item-11{
+    background-color:darkgrey;
+    grid-row: 3/3;
+}
+.item-12{
+    background-color: lightcoral;
+    grid-row: 4/;
+}
+p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
