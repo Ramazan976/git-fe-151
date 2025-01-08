@@ -1,0 +1,71 @@
+.container{
+    max-width: 1120px;
+    width: 80%;
+    margin: auto;
+}
+.box{
+    width: 100%;
+    height: 400px;
+}
+.text1{
+    margin-bottom: 5px;
+    color: #FFA62B;
+    font-weight: 700;
+}
+.text2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+}
+.text3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    color: #999999;
+    font-weight: 400;
+}
+.text4{
+    font-weight: 100;
+}
+
+@media screen and (min-width:1400px) {
+    .container{
+        max-width: 1320px;
+        margin: auto;
+    }
+    .col-xxl-1{
+        width: calc(100%/12*1);
+    }
+    .col-xxl-2{
+        width: calc(100%/12*2);
+    }
+    .col-xxl-3{
+        width: calc(100%/12*3);
+    }
+    .col-xxl-4{
+        width: calc(100%/12*4);
+    }
+    .col-xxl-5{
+        width: calc(100%/12*5);
+    }
+    .col-xxl-6{
+        width: calc(100%/12*6);
+    }
+    .col-xxl-7{
+        width: calc(100%/12*7);
+    }
+    .col-xxl-8{
+        width: calc(100%/12*8);
+    }
+    .col-xxl-9{
+        width: calc(100%/12*9);
+    }
+    .col-xxl-10{
+        width: calc(100%/12*10);
+    }
+    .col-xxl-11{
+        width: calc(100%/12*11);
+    }
+    .col-xxl-12{
+        width:100%;
+    }
+
+}
