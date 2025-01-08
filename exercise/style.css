@@ -1,0 +1,51 @@
+.w-full{
+    width: 100%;
+}
+.work{
+    margin-top: 100px;
+}
+.box{
+    width: 100%;
+    position: relative;
+   
+}
+.box:hover{
+    background-color: orange;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    transition-duration: 0.3s;
+    transition-behavior:normal;
+    transition-timing-function: ease;
+    transition-delay: 0;
+    transition-property: all;
+        
+}
+.worker{
+    margin-top: 100px;
+}
+.text2{
+    color: gray;
+    text-align: center;
+    padding: 10px;
+}
+.platform{
+    background-color: orange;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s all;
+
+}
+.box:hover .platform{
+    visibility: visible;
+    opacity: 1;
+}
+.text1{
+    text-align: center;
+}
