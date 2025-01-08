@@ -1,0 +1,61 @@
+.wrapper{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+}
+.card{
+    background-color: blueviolet;
+    border-radius: 15px;
+    color: white;
+    width: 300;
+    height: 200;
+    min-width: 320px;
+    margin: 10px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+.number{
+padding-left: 2px;
+letter-spacing: 6px;
+margin-top: 5px;
+font-size: 20px;
+}
+.name{
+font-size: 25px;
+padding-top: -15px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.valid{
+margin-top: 20px;
+font-size: 12px;
+}
+.date{
+font-size: 20px;
+}
+.visa{
+    display: flex;
+    justify-self: end;
+    width: 100;
+    height: 50;
+    margin-right: 12px;
+    margin-top: -50;
+}
+.chip{
+    width: 70px;
+    padding-top: 30px;
+    margin-left: -5px;
+}
+.card:nth-child(2){
+    background-color: chocolate;
+}
+.card:nth-child(3){
+    background-color: brown;
+}
+.card:nth-child(4){
+    background-color: hotpink;
+}
