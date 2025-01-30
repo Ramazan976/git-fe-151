@@ -26,7 +26,7 @@ for (let i = 0; i < text.length; i++) [
 let primary = document.querySelectorAll (`.primary`);
 
 primary.forEach(element => {
-    console.log(element.textContent)
+    console.log('%c' + element.textContent, 'color: blue; font-size: 20px;')
     
 });
 
