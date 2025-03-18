@@ -1,0 +1,11 @@
+.book{
+    width: 260px;
+    border: 2px solid blue;
+}
+.book-image{
+    width: 100%;
+}
+
+.info-name{
+    font-size: 22px;
+}
